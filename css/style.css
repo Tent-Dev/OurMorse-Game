@@ -1,0 +1,111 @@
+body{
+	background-color: #363636;
+	font-family: 'Athiti', sans-seri;
+}
+footer{
+	background-color: #4E4D4D;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+    bottom: -1000;
+    color: white;
+    text-align: center;
+}
+
+.my-content-border{
+	border-style: dotted;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+.my-content-game{
+		color: #721c24;
+	}
+
+.my-header-content{
+	color: #FA9E41 !important;
+}
+
+.btn-morse {
+    color: #363636 !important;
+    background-color: #FA9E41 !important;
+    border-color: #FA9E41 !important;
+}
+
+@media screen and (min-width: 1001px){
+	.my-header{
+		font-size: 5em;
+		color: white;
+	}
+	.my-list-content{
+		list-style: none;
+		font-size: 1em !important;
+	}
+	.my-content-game{
+		font-size: 3em;
+	}
+}
+
+@media screen and (min-width: 444px) and (max-width: 1000px) {
+	.my-header{
+		font-size: 3em;
+		color: white;
+	}
+	.my-content-border{
+    	font-size: 1.5rem;
+	}
+	.my-list-content{
+		list-style: none;
+		font-size: 1em !important;
+	}
+	.my-content-game{
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 294px) and (max-width: 443px) {
+	.my-header{
+		font-size: 2em;
+		color: white;
+	}
+	.my-list-content{
+		list-style: none;
+		font-size: 0.75em !important;
+	}
+	.my-content-game{
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 224px) and (max-width: 293px) {
+	.my-header{
+		font-size: 1.5em;
+		color: white;
+	}
+	.my-list-content{
+		list-style: none;
+		font-size: 0.65em !important;
+	}
+	.my-content-game{
+		font-size: 0.85em;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 223px) {
+	.my-header{
+		font-size: 1em;
+		color: white;
+	}
+	.my-list-content{
+		list-style: none;
+		font-size: 0.45em !important;
+	}
+	.my-content-game{
+		font-size: 0.75em;
+	}
+}
